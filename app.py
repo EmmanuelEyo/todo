@@ -22,7 +22,7 @@ from flask import Flask, render_template
 @app.route("/")
 def home():
     todo_list = Todo.query.all()
-    return render_template("base.html", todo_list=todo_list)
+    return render_template("index.html", todo_list=todo_list)
 
 if __name__ == "__main__":
     db.create_all()
