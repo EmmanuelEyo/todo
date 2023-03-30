@@ -1,0 +1,6 @@
+This is for the python file create a virtual environment and install the module
+Note:follow step by step
+ python3 -m venv venv #this is to create a virtual environment
+ . venv/bin/activate #to activate it
+pip install Flask
+pip install Flask-SQLAlchemy
