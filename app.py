@@ -18,7 +18,7 @@ class Todo(db.Model):
 from flask import Flask, render_template
 
 ...
-
+#Note change the base.html to the html or react file
 @app.route("/")
 def home():
     todo_list = Todo.query.all()
